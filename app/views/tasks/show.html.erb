@@ -1,9 +1,6 @@
-
-<p>
-  <strong>Title:</strong>
-  <%= @task.title %>
-</p>
-
+<div class="page-header">
+  <h1><%= @task.title %><br> <small>Submitted by <%= @task.user.email %></small></h1>
+</div>
 <p>
   <strong>Description:</strong>
   <%= @task.description %>
